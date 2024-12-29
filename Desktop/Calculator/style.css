@@ -1,0 +1,20 @@
+#calce{
+  width: 300px;
+  background-color: rgb(39, 215, 177);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  border-radius: 5px; 
+  margin: 20px;  
+}
+#display{
+ width: 90%;
+ padding: 15px 18px;
+ border-radius: 10px;
+}
+.btn{
+   width: 45px;
+   height: 40px;
+   margin: 9px;
+   border-radius: 10px;
+}
