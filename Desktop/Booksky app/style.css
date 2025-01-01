@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(84, 210, 30);
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    display: inline;
+}
+
+.book-container {
+    padding: 15px;
+    width:25%;
+    background-color: black;
+    color: aliceblue;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.book-container h2 {
+    text-align: center;
+    color: rgb(210, 30, 162);
+}
+
+.book-container button {
+    background-color: rgb(201, 30, 210);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 9px 9px;
+    margin: 10px;
+}
+
+.add-button {
+    background-color: rgb(30, 210, 72);
+    color: black;
+    border-radius: 100px;
+    padding: 20px 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.popup-overlay {
+    background-color: rgb(19, 19, 19);
+    opacity: 0.9;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.popupbox {
+    background-color: orangered;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    margin: 200px;
+    border-radius: 20px;
+    display: none;
+}
+
+.popup-overlay input,
+textarea {
+    background: transparent;
+    border: none;
+    border-bottom: solid black 2px;
+    width: 90%;
+    padding: 6px;
+    margin: 5px;
+    font-size: 20px;
+
+}
+
+.popup-overlay textarea {
+    border: solid black 2px;
+
+
+}
+
+.popup-overlay input,
+textarea,
+::placeholder {
+    color: white;
+
+}
+
+.popup-overlay button {
+    color: white;
+    padding: 13px;
+    border-radius: 7px;
+    background-color: black;
+    width: 30%;
+
+}

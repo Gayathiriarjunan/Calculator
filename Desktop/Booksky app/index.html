@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>Booksky</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>Blue Jmberlla</h2>
+            <h5>Ruskin Bond</h5>
+            <p>The Blue Umbrella is a short story by Ruskin Bond that follows a young girl named Binya, living in a small village in the hills of India. Binya acquires a beautiful blue umbrella in a trade with a tourist. The umbrella becomes the object of envy, especially of Ram Bharosa, a local shopkeeper. The story explores themes of jealousy, kindness, and innocence as Binya’s umbrella is stolen, but ultimately, she forgives the thief. The story ends with a lesson on the value of kindness and the simplicity of life.
+            </p>
+            <button onclick="deleteinput(event)" >delete</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>Cinderella </h2>
+            <h5>Cendrillon</h5>
+            <p>Cinderella is a kind-hearted, beautiful young girl living with her wicked stepmother and two stepsisters. After the death of her mother and father, her stepmother treats her cruelly, making her do all the housework and live as a servant in her own home. As she weeps by the fireplace, her Fairy Godmother appears and uses magic to transform Cinderella's rags into a beautiful gown and her pumpkin into a magnificent carriage. She is given glass slippers, and the Fairy Godmother warns her that the magic will wear off at midnight.</p>
+            <button onclick="deleteinput(event)" >delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay">
+        <div class="popupbox">
+            <h2>Add Book</h2>
+            <form>
+                <input type="text" placeholder="Book Title" id="Book-Title-input">
+                <input type="text" placeholder="Book Author" id="Book-Author-input">
+                <textarea placeholder="Short Descrition" id="book-des"></textarea>
+            </form>
+            <button id="add-book">Add</button>
+            <button id="cancled">Cancle</button>
+        </div>
+    </div>  
+        <button class="add-button" id="add-popup-button">+</button>
+
+</body>
+<script src="script.js"></script>
+
+</html>
